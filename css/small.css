@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body{
     max-width: 800px;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
+    background-color: black;
 }
 
 /*Header*/
@@ -25,11 +26,21 @@ header{
 /* Main */
 main{
     padding:1rem;
+    background-color: rgb(243, 238, 167);
+    box-shadow: 3px 4px 5px grey;
 }
 
-.note li{
-    list-style-type: none;
+/* General index */
+ol li a{
+    text-decoration: none;
+    color:black;
 }
+
+ol li a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 
 
 
