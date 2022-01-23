@@ -5,9 +5,14 @@ const links = [
     },
 
     {
-      label: "Week2 (Porfolio Introduction)",
+      label: "Week2",
       url: "week2/index.html"
     },
+
+    {
+      label: "Objects, DOM and Events",
+      url: "week3/index.html"
+    }
 
 
 

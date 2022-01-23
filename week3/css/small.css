@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+}
+
+/*Header*/
+
+div{
+    padding:1rem;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+}
+
+header{
+    background-color:rgb(64, 130, 109) ;
+    padding:1rem;
+    text-align: right;
+    color:white;
+    box-shadow: 3px 4px 5px grey;
+}
+
+/* Main */
+main{
+    padding:1rem;
+    background-color: rgb(243, 238, 167);
+    box-shadow: 3px 4px 5px grey;
+}
+
+/* index page */
+
+.note li{
+    list-style-type: none;
+}
+
+.note li a{
+    text-decoration: none;
+    color:black;
+}
+
+.note li a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/*notes*/
+
+input{
+    padding:.5rem;
+    margin: 1rem;
+}
+
+.excercies h2, h3{
+    padding:.3rem;
+}
+
+.activity{
+    padding:.5rem;
+    margin:1rem;
+    border-left: 3px solid black;
+    border-top-left-radius: .1rem;
+}
+
+.button{
+    margin:.3rem;
+}
+
+button{
+    padding:1rem
+}
+
+textarea{
+    margin-top:1rem;
+    height: 200px;
+    width: 300px;
+    
+}
+
