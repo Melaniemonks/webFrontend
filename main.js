@@ -26,6 +26,11 @@ const links = [
     {
       label: "Functions and Ajax",
       url: "week7/index.html"
+    },
+
+    {
+      label: "Final Project",
+      url: "stockify/index.html"
     }
 
 ]

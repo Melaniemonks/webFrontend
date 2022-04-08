@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stockify/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <title>Stockhub</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="header">
+                <img id="stock-icon" src="/stockify/images/stock-icon.png" alt="stock photo">
+                <h1>STOCKIFY</h1>
+                <!-- <button type="submit" class="i"  onclick="allStocks()">ALL STOCKS</button> -->
+            </div>
+        </header>
+        <p id="stock-p">Welcome to StockHub. This is your one stop for all stock information.</p>
+
+        <h2 id="topstocks">TOP STOCKS</h2>
+        <div class="stocks-list">
+
+
+        </div>
+
+
+        <div class="stock-wrapper">
+            <div class="stock-search">
+                <h2 class="title">Learn about Stocks Today</h2>
+
+
+                <div class="stock-search-box">
+                    <input type="search" id="test" placeholder="Type in any stock" onsearch="stockAsk()" ;>
+                    <!-- <input type="submit" class="search" id="submit" onsearch="stockAsk();"></input> -->
+                </div>
+
+                <div class="stocks">
+                </div>
+            </div>
+
+            <footer>
+                <div class="contact">
+                    <div class="summary">
+                        <h4>About Stockify</h4>
+                        <p>Stockify is my website in honor of my love for the stock market. This website will bring you
+                            current on the recent opening and closing results of various companies traded in the stock
+                            market. </p>
+                    </div>
+                    <div class="about">
+                        <h4>Melanie Monkurai</h4>
+                        <p><b>Major: </b>Software Engineering</p>
+                        <p><b>Course: </b>Web Frontend II</p>
+                        <p><b>Professor: </b> Bro Adam Gedeborg</p>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+        </div>
+
+</body>
+
+<script src="stock.js"></script>
+<script src="search.js"></script>
+
+</html>
