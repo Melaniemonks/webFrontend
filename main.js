@@ -31,6 +31,11 @@ const links = [
     {
       label: "Final Project",
       url: "stockify/index.html"
+    },
+
+    {
+      label: "Final Project Video",
+      url: "https://youtu.be/OJifDbWO5s4"
     }
 
 ]
